@@ -1,20 +1,27 @@
-//
-//  ContentView.swift
-//  Landmarks
-//
-//  Created by Douglas Hewitt on 2/4/20.
-//  Copyright © 2020 Douglas Hewitt. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing the details for a landmark.
+*/
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
+
+            CircleImage()
+                .offset(x: 0, y: -130)
+                .padding(.bottom, -130)
+
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title)
-                HStack {
+                HStack(alignment: .top) {
                     Text("Joshua Tree National Park")
                         .font(.subheadline)
                     Spacer()
@@ -22,11 +29,10 @@ struct ContentView: View {
                         .font(.subheadline)
                 }
             }
-            .padding(.all)
-            
+            .padding()
+
+            Spacer()
         }
-            
-            
     }
 }
 
