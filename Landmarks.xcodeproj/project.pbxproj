@@ -13,6 +13,8 @@
 		C351919B2409E1100025A853 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = C351919A2409E1100025A853 /* hikeData.json */; };
 		C351919E2409E15A0025A853 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351919C2409E15A0025A853 /* GraphCapsule.swift */; };
 		C351919F2409E15A0025A853 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351919D2409E15A0025A853 /* HikeGraph.swift */; };
+		C35191A12409EB290025A853 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35191A02409EB290025A853 /* Home.swift */; };
+		C35191A32409EE170025A853 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35191A22409EE170025A853 /* CategoryRow.swift */; };
 		C35BA0C02400CA0D00DCDFE2 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35BA0BF2400CA0D00DCDFE2 /* HexagonParameters.swift */; };
 		C35BA0C22400CA4A00DCDFE2 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35BA0C12400CA4A00DCDFE2 /* Badge.swift */; };
 		C35BA0C42400D15400DCDFE2 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35BA0C32400D15400DCDFE2 /* BadgeBackground.swift */; };
@@ -53,6 +55,8 @@
 		C351919A2409E1100025A853 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		C351919C2409E15A0025A853 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		C351919D2409E15A0025A853 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		C35191A02409EB290025A853 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Home.swift; path = "Supporting Views/Home.swift"; sourceTree = "<group>"; };
+		C35191A22409EE170025A853 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C35BA0BF2400CA0D00DCDFE2 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		C35BA0C12400CA4A00DCDFE2 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		C35BA0C32400D15400DCDFE2 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -118,12 +122,14 @@
 		C384FB9823EA2F7B001EDE9F /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				C35191A02409EB290025A853 /* Home.swift */,
 				C384FB9923EA2F7B001EDE9F /* AppDelegate.swift */,
 				C384FB9B23EA2F7B001EDE9F /* SceneDelegate.swift */,
 				C384FB9D23EA2F7B001EDE9F /* LandmarkDetail.swift */,
 				C384FBD523EB7C6C001EDE9F /* LandmarkRow.swift */,
 				C384FBD723EB82A2001EDE9F /* LandmarkList.swift */,
 				C35191972409E0FB0025A853 /* HikeDetail.swift */,
+				C35191A22409EE170025A853 /* CategoryRow.swift */,
 				C35191962409E0FB0025A853 /* HikeView.swift */,
 				C35BA0BF2400CA0D00DCDFE2 /* HexagonParameters.swift */,
 				C384FBD023EB7964001EDE9F /* Models */,
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35191A32409EE170025A853 /* CategoryRow.swift in Sources */,
 				C384FBD423EB7972001EDE9F /* Landmark.swift in Sources */,
 				C35BA0C22400CA4A00DCDFE2 /* Badge.swift in Sources */,
 				C384FB9A23EA2F7B001EDE9F /* AppDelegate.swift in Sources */,
@@ -290,6 +297,7 @@
 				C35BA0C82400D2D200DCDFE2 /* RotatedBadgeSymbol.swift in Sources */,
 				C35191992409E0FB0025A853 /* HikeDetail.swift in Sources */,
 				C384FBB323EB56CD001EDE9F /* MapView.swift in Sources */,
+				C35191A12409EB290025A853 /* Home.swift in Sources */,
 				C351919F2409E15A0025A853 /* HikeGraph.swift in Sources */,
 				C35BA0C42400D15400DCDFE2 /* BadgeBackground.swift in Sources */,
 				C384FB9C23EA2F7B001EDE9F /* SceneDelegate.swift in Sources */,
