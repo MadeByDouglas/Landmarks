@@ -35,6 +35,10 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
+                
+                PageView(features.map { FeatureCard(landmark: $0) })
+                    .aspectRatio(3/2, contentMode: .fit)
+
                 FeaturedLandmarks(landmarks: featured)
                     .scaledToFill()
                     .frame(height: 200)
