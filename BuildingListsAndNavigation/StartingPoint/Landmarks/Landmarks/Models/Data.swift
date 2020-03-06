@@ -5,9 +5,10 @@ Abstract:
 Helpers for loading images and data.
 */
 
-import UIKit
+import Foundation
 import SwiftUI
 import CoreLocation
+import ImageIO
 
 let landmarkData: [Landmark] = load("landmarkData.json")
 let features = landmarkData.filter { $0.isFeatured }
